@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero
+{
+    background-color:rgb(78, 49, 49);
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+    
+}
+ button {
+    background-color: white;
+    height: 25px;
+    width: 55px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    transition: background 0.5s;
+    /* margin: 20px 30px; */
+    
+}
+button span{
+    display: block;
+    background: #999;
+    height: 24px;
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 0.5s ;
+}
+.lamp-container
+{
+    position: absolute;
+    right: 22%;
+    width: 135px;
+}
+.lamp{
+    width: 100%;
+
+}
+.light
+{
+    position: absolute;
+    top: 96%;
+    right: 54%;
+    transform: translateX(50%);
+    width: 490px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 9999;
+
+}
+#image{
+    height: 272px;
+    position: absolute;
+    bottom: 0;
+    background-blend-mode:darken,luminosity;
+}
+.text-container
+{
+    max-width: 700px;
+    padding: 10%;
+    margin-left: 4%;
+}
+.text-container h1{
+
+    font-size: 1000%;
+
+}
+.text-container p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.text-container h2{
+    font-size: 35px;
+    font-family: 'Eczar', serif;
+    /* text-align: center; */
+    margin-top: -3px;
+    margin
+}
+
+
+
+
+.text-container a{
+    background-color: rgb(163, 61, 61);
+    text-decoration: none;
+    /* margin-top:60px; */
+    padding: 14px 40px;
+    display: inline-block;
+    color: white;
+    border-radius: 15px;
+
+
+}
+.text-container a:hover{
+
+}
+.active
+{
+    background: aqua;
+}
+.active span{
+    background:white;
+    margin-left: 31px;
+}
+.on{
+    opacity: 1;
+}
+.change{
+    background-color: black;
+}

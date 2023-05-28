@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.products{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    padding: 20px;
+    padding-top: 1px;
+    width: 70%;
+    
+}
+.small-image img{
+    height: 92px;
+    width: 150px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.6;
+
+}
+.small-image img:hover{
+    opacity: 1;
+}
+.large-image img{
+    height: 500px;
+    width: 100%;
+    float: right;
+   
+   
+}
+.info {
+  
+  
+    float: right;
+    height: 100vh;
+    width: 372px;
+    margin-top: 22px;
+    margin-right: 5px;
+    background-color: white;
+    border: 3px solid black;
+}
+.info .supp1{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.info .sup1{
+    font-size: 30px;
+}
+
+

@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("cool.jpg");
+}
+.container
+{
+    max-width: 700px;
+    width: 100%;
+    
+    padding: 30px 20px;
+    border-radius: 5px;
+    position: relative;
+    
+    
+}
+.container h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.container form .userdetails{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .userdetails .inputBox{
+    margin-bottom: 15px;
+    width:calc(100%/2 - 20px) ;
+}
+.userdetails .inputBox .details{
+    display: block;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.userdetails .inputBox .in{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius:5px ;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    border-bottom-width:2px ;
+    transition: aall 0.3 ease;
+}
+.userdetails .inputBox input:focus,
+.userdetails .inputBox input:valid{
+    border-color: #9b59b6;
+}
+.inputBox .cat label{
+    font-size: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+form .bttnn 
+{   
+    height: 40px;
+    margin: 45px 0;
+   
+
+
+}
+form .bttnn input{
+    height: 100% ;
+    width:100% ;
+    outline: none;
+    color: black;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(164, 159, 154, 0.7));
+}
+.form:hover{
+    color: black;
+}
