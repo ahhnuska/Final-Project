@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/prallex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Corben:wght@700&family=Nobile&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="imgg/logo1.jpg" class="logo">
+        <ul>
+
+            <li><a href="parralex.html">Home</a></li>
+            <li><a href="galleryreview.html">Vechile Gallery</a></li>
+            <li><a href="cont.html" >Contact Us</a></li>
+            <li class="log"><a href="signup.html"><i class="fa-regular fa-user"></i></a></li>
+
+        </ul>
+
+    </nav>
+<!-- Main Section starts from here -->
+    <div class="wrapper">
+        <main>
+            <img src="imgg/prallex1.png" class="background">
+            <img src="imgg/ca.png" class="foreground">
+            <h1 class="ti">Rides Review from the Mountain</h1>
+    </main>
+    <div class="outside">
+        <h1 class="abus">About Us</h1>
+        <h3 class="la"> <b> Welcome to RideRev,</b><br> </h3>
+         <p class="para">RideRev is your trusted source for detailed vehicle reviews. Our team of automotive experts is dedicated to providing you with honest and unbiased information to help you make informed decisions about your next ride. We evaluate performance, safety features, fuel efficiency, interior comfort, technology, and more, ensuring you have a complete understanding of what each vehicle has to offer. Trust RideRev to guide you towards finding your dream vehicle.</p>
+    </div>
+<!-- light -->
+<div class="hero" id="hero">
+    <div class="lamp-container">
+        <img src="imgg/lamp.png" class="lamp">
+        <img src="imgg/light.png" id="light" class="light">
+        <img src="" id="image">
+    </div>
+    <div class="text-container">
+        <button type="button" id="btn" onclick="toggleBtn()" ><span></span></button>
+        <h1>Review </h1>
+        <h2>Of  <span class="auto-type"></span></h2>
+        <p><b><i>Explore The Elegance Of Vechiles</b></i></p>
+        <a href="galleryreview.html">Review the Gallery</a>
+    </div>
+    
+</div>
+<script src="js/light.js"></script>
+<script >
+    var btn = document.getElementById("btn");
+    var light = document.getElementById("light");
+    var hero =document.getElementById("hero")
+    function toggleBtn(){
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+        hero.classList.toggle("change")
+    }
+</script>    
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12""></script>
+<script>
+    var type = new Typed(".auto-type", {
+        strings:["SuperCar","Car","Jeep","SportsBike","Bike","Scooters","E-Vechile"],
+        typeSpeed : 150,
+        backSpeed : 150,
+        loop: true
+        
+    }) 
+</script>
+<script type="text/javascript">
+    let image= document.getElementById("image")
+    let images=["supercar.png","car.jpg","jeep.png","superbike.png","bike.png","scooter.png"]
+    setInterval(function(){
+        let random =Math.floor(Math.random()*4);
+        image.src = images[random];
+
+    },800);
+</script>
+
+
+
+</script>
+
+<!-- Footer starts from here -->
+<div class="footer">
+    <div class="footerContainer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li> <a href="#" >About Us</a></li>
+                    <li><a href="#" >Contact Us</a></li>
+                    <li><a href="#" >Privacy Policy</a></li>
+                    <li><a href="#" >Terms of Service</a></li>
+                    <li><a href="#">Copyright Information</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Partnership</h4>
+                <ul>
+                    <li><a href="#" >Our Partners</a></li>
+                    <li><a href="#" >Terms of Review Submission</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <ul>
+                   <a href="#"><i class="fa-brands fa-facebook"></i></a>  
+                    <a href="#"><i class="fa-brands fa-instagram fa-spin"></i></a> 
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-flip"></i></a>
+                </ul>
+            </div>
+
+        </div>  
+    </div>
+</div>
+
+    
+</body>
+</html>
