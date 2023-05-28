@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/describe.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <h3 class="sup1">Nissan Leaf</h3>
+        <p class="supp1">Nissan Leaf:<br>
+
+           1. <b>Reliable:</b> The Honda Accord is known for its outstanding reliability, making it a popular choice among buyers.<br>
+           
+           2.<b> Fuel Efficiency:</b> The Accord offers excellent fuel efficiency, with both its four-cylinder and hybrid powertrain options delivering impressive mileage.<br>
+           
+           3. <b>Spacious Interior:</b> The Accord provides a roomy and comfortable cabin with ample seating space for passengers and generous cargo capacity.<br>
+           
+           4.<b> Smooth Ride:</b> The Accord offers a smooth and comfortable ride, thanks to its well-tuned suspension and refined handling.<br>
+           
+           5. <b>Advanced Safety Features:</b> Honda prioritizes safety, and the Accord comes equipped with advanced safety features such as collision mitigation braking, lane-keeping assist, and adaptive cruise control.<br>
+           
+           6.<b> User-Friendly Technology:</b> The Accord incorporates user-friendly technology, including a responsive touchscreen infotainment system, smartphone integration, and available features like Apple CarPlay and Android Auto.<br>
+           
+           7.<b> Strong Performance:</b> The Accord offers a choice of powerful engines, including turbocharged options, providing a satisfying driving experience with good acceleration and performance.<br>
+           
+           8.<b> Stylish Design:</b> The Accord showcases a sleek and modern exterior design, with clean lines and a refined appearance that sets it apart in its class.<br>
+           
+           9.<b> Well-Built Interior:</b> The Accord's interior features high-quality materials, a well-organized layout, and attention to detail, creating a premium feel.<br>
+           
+           10.<b> Wide Range of Trim Levels:</b> The Accord is available in various trim levels, allowing buyers to choose the features and options that best suit their preferences and budget.<br>
+           
+          
+    </div>
+    <div class="products">
+       
+        <div class="small-image">
+
+            <img src="imgg/e/e1.jpg" onclick="myfunction(this)">
+            <img src="imgg/e/e11.jpg" onclick="myfunction(this)">
+            <img src="imgg/e/e12.jpg"onclick="myfunction(this)">
+            <img src="imgg/e/e13.jpg"onclick="myfunction(this)">
+            <img src="imgg/e/e11.jpg"onclick="myfunction(this)">
+        </div>
+        <div class="large-image">
+            <img id="imageBox" src="imgg/e/e1.jpg">
+        </div>
+        
+    </div>
+   
+    <script>
+        function myfunction(smallImg)
+        {
+            var fullImg= document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        
+        }
+    </script><br>
+    
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/describe.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <h3 class="sup1">Norton V4SV</h3>
+        <p class="supp1">The Norton V4SV:<br>
+
+            1. Norton V4SV is a high-performance motorcycle known for its power and speed.<br><br>
+            2. It features a sleek and aerodynamic design that enhances both aesthetics and stability.<br>
+            3. The V4 engine delivers impressive acceleration and top speeds.<br>
+            4. The suspension system provides a smooth ride, even on rough roads.<br>
+            5. The bike offers responsive and precise handling, allowing for confident cornering.<br>
+            6. The build quality and attention to detail are exceptional, resulting in a solid and durable machine.<br>
+            7. The bike's components and overall craftsmanship are of high quality.<br>
+            8. The riding position may be more aggressive, prioritizing performance over comfort.<br>
+            9. It is popular among motorcycle enthusiasts who appreciate its performance-oriented design.<br>
+            10. Overall, the Norton V4SV offers an exhilarating riding experience and is highly regarded in the motorcycle community.<br>
+          
+    </div>
+    <div class="products">
+       
+        <div class="small-image">
+
+            <img src="imgg/b1/b1.jpg" onclick="myfunction(this)">
+            <img src="imgg/b1/b11.jpg" onclick="myfunction(this)">
+            <img src="imgg/b1/b12.jpg"onclick="myfunction(this)">
+            <img src="imgg/b1/b13.jpg"onclick="myfunction(this)">
+            <img src="imgg/b1/b14.jpg"onclick="myfunction(this)">
+        </div>
+        <div class="large-image">
+            <img id="imageBox" src="imgg/b1/b1.jpg">
+        </div>
+        
+    </div>
+   
+    <script>
+        function myfunction(smallImg)
+        {
+            var fullImg= document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        
+        }
+    </script><br>
+    
+    
+</body>
+</html>

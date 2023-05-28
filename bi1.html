@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/describe.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <h3 class="sup1">Yamaha YZF-R15 </h3>
+        <p class="supp1">Yamaha YZF-R15:<br>
+
+            1. Yamaha YZF-R15 is a sporty and stylish motorcycle that appeals to performance enthusiasts.<br>
+            2. It is powered by a fuel-injected 155cc engine, offering a good balance of power and efficiency.<br>
+            3. The bike's design is inspired by Yamaha's MotoGP racing machines, giving it an aggressive and sporty look.<br>
+            4. The YZF-R15 features advanced features such as LED headlights, digital instrument cluster, and aerodynamic fairing.<br>
+            5. The handling of the bike is praised for its nimbleness and agility, making it enjoyable to ride in corners and urban environments.<br>
+            6. It has a comfortable riding position that strikes a balance between sportiness and long-distance comfort.<br>
+            7. The braking performance of the YZF-R15 is commendable, with responsive front and rear disc brakes.<br>
+            8. Riders appreciate the smooth and precise gearbox, allowing for effortless gear shifting.<br>
+            9. The bike's suspension provides a good balance between comfort and sporty handling.<br>
+            10. Overall, the Yamaha YZF-R15 is a popular choice for riders seeking a sporty and reliable motorcycle with a touch of racing DNA.<br>
+          
+    </div>
+    <div class="products">
+       
+        <div class="small-image">
+
+            <img src="imgg/bi1/bi1.jpg" onclick="myfunction(this)">
+            <img src="imgg/bi1/bi11.jpg" onclick="myfunction(this)">
+            <img src="imgg/bi1/bi12.jpg"onclick="myfunction(this)">
+            <img src="imgg/bi1/bi13.jpg"onclick="myfunction(this)">
+            <img src="imgg/bi1/bi14.jpg"onclick="myfunction(this)">
+        </div>
+        <div class="large-image">
+            <img id="imageBox" src="imgg/bi1/bi1.jpg">
+        </div>
+        
+    </div>
+   
+    <script>
+        function myfunction(smallImg)
+        {
+            var fullImg= document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        
+        }
+    </script><br>
+    
+    
+</body>
+</html>

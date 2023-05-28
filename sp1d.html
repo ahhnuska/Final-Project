@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/describe.css" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <div class="info">
+        <h3 class="sup1">Ferrari SF90 Stradale</h3>
+        <p class="supp1">The Ferrari SF90 Stradale is a groundbreaking hybrid supercar that combines stunning design with exceptional performance. Here are the key points about the SF90 Stradale:<br>
+
+           1)<b>Design:</b>  The SF90 Stradale features a sleek and aerodynamic design with aggressive styling cues, a low-slung profile, and modern LED lighting.<br>
+            
+           2)<b>Powertrain:</b>  It is equipped with a twin-turbocharged V8 engine combined with three electric motors, producing a mind-boggling total power output of 986 horsepower.<br>
+            
+           3) <b>Performance:</b> The SF90 Stradale accelerates from 0 to 60 mph in just 2.5 seconds and has a top speed of around 211 mph, making it one of the fastest Ferraris ever produced.<br>
+            
+           4)<b>Hybrid System:</b>  The hybrid setup allows for all-wheel drive and provides instant torque, enhancing the car's acceleration and handling capabilities.<br>
+            
+           5)<b>Electric Range:</b>  The SF90 Stradale offers a pure electric driving mode, allowing for emission-free and silent driving for approximately 16 miles.<br>
+            
+           6)<b>Handling and Dynamics:</b>  With advanced technologies like electronic stability control, torque vectoring, and adaptive suspension, the SF90 Stradale delivers exceptional handling and precise control.<br>
+            
+           7)<b>Interior:</b>  The cabin is a perfect blend of luxury and performance, featuring premium materials, comfortable seating, and a driver-focused cockpit.<br>
+            
+           8)<b>Infotainment:</b>  It is equipped with the latest infotainment system, including a digital instrument cluster, touchscreen display, and connectivity features.<br>
+            
+           9)<b>Track Capabilities:</b>  The SF90 Stradale is designed to excel on the track, with features such as aerodynamic enhancements, active aerodynamics, and advanced braking systems.<br>
+            
+           10)<b>Limited Production: </b> The SF90 Stradale is a limited-production model, showcasing Ferrari's commitment to pushing the boundaries of automotive engineering and performance.</p>
+    </div>
+    <div class="products">
+       
+        <div class="small-image">
+
+            <img src="imgg/Ferrari SF90 Stradale.jpg" onclick="myfunction(this)">
+            <img src="imgg/f1.jpg" onclick="myfunction(this)">
+            <img src="imgg/f2.jpg"onclick="myfunction(this)">
+            <img src="imgg/f3.jpg"onclick="myfunction(this)">
+            <img src="imgg/f5.jpg"onclick="myfunction(this)">
+        </div>
+        <div class="large-image">
+            <img id="imageBox" src="imgg/Ferrari SF90 Stradale.jpg">
+        </div>
+        
+    </div>
+   
+    <script>
+        function myfunction(smallImg)
+        {
+            var fullImg= document.getElementById("imageBox");
+            fullImg.src=smallImg.src;
+        
+        }
+    </script>
+    
+    
+</body>
+</html>
